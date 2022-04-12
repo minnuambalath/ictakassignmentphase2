@@ -1,0 +1,10 @@
+#rectangle{
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
+    width:200px;
+    height:100px;
+    background:blue;
+}
