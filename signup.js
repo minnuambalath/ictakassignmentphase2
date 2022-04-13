@@ -5,11 +5,11 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 var strength = {
-	0: "Worst",
-	1: "Bad",
-	2: "Weak",
-	3: "Good",
-	4: "Strong"
+	3: "Worst",
+	4: "Bad",
+	5: "Weak",
+	6: "Good",
+	7: "Strong"
   }
   //var password = document.getElementById('password');
   var meter = document.getElementById('password-strength-meter');
