@@ -42,13 +42,15 @@
             <div class="form-control">
                 <label for="username">Password</label>
                 <input type="password" placeholder="Enter Password" id="password"/>
-                <meter max="4" id="password-strength-meter"></meter>
-                <p id="password-strength-text"></p>
+                <progress id="progress" value="0" max="100">70</progress>
+                <span id="progresslabel"></span>
+                <!-- <meter max="4" id="password-strength-meter"></meter>
+                <p id="password-strength-text"></p> -->
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
                 <div class="ul">
-                    <li> Password must include Lowercase & Uppercse,Numbers,Special Charecters</li>
+                 Password must include Lowercase & Uppercse,Numbers,Special Charecters
                    
                 </div>
             </div>
